@@ -1,2 +1,2 @@
-# TSQL_Tool_chest
+# TSQL_Tool_Chest
 TSQL Code Snippets
