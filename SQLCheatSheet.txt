@@ -1,0 +1,16 @@
+DML --> Data manipulation languages. It is used to retreive, modify, add and delete data in a database.
+
+
+
+DDL --> Data definition languages. It is used to create, modify and destroy the stucture of database objects in a database.
+
+
+
+
+
+DCL --> Data Control Language. It is used to create roles, permissions, and referential integrity as well, it is used to control access to database by securing it.
+
+
+
+
+TCL --> Transactional control language. It is used to manage different transactions occuring within a database. 
