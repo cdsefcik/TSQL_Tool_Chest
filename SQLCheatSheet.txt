@@ -1,16 +1,25 @@
 DML --> Data manipulation languages. It is used to retreive, modify, add and delete data in a database.
-
-
+SELECT This SQL DML command select records or data from a table
+INSERT Insert data into a database table.
+UPDATE This SQL DML command will update existing records within a table
+DELETE Delete unwanted records from a table
 
 DDL --> Data definition languages. It is used to create, modify and destroy the stucture of database objects in a database.
-
-
-
+CREATE: Create an object. I mean, create a database, table, triggers, index, functions, stored procedures, etc.
+DROP: This SQL DDL command helps to delete objects. For example, delete tables, delete a database, etc.
+ALTER: Used to alter the existing database or its object structures.
+TRUNCATE: This SQL DDL command removes records from tables
+RENAME: Renaming the database objects
 
 
 DCL --> Data Control Language. It is used to create roles, permissions, and referential integrity as well, it is used to control access to database by securing it.
-
+GRANT It permits users to access the database.
+REVOKE This SQL DCL command withdraws the permission given by GRANT to access the database.
 
 
 
 TCL --> Transactional control language. It is used to manage different transactions occuring within a database. 
+COMMIT: This SQL TCL command will commit the running transaction
+ROLLBACK: Rollback the current transaction 
+SAVEPOINT: You can set a save point so that, next time it will start from here
+SET TRANSACTION: Specify the characteristics of the transactions 
