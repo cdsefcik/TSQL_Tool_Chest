@@ -11,6 +11,7 @@ LTRIM('String') > Used to remove leading spaces from a string.
 RTRIM('String') > Used to remove trailing spaces from a string.
 LEFT('String',Number of Characters) > Used to parse characters. The number of characters is a number, represents the number of characters to parse from the left.
 RIGHT('String',Number of Characters) > Used to parse characters. The number of characters is a number, represents the number of characters to parse from the right.
+REPLACE('String',string_pattern,string_replacement) > Takes a string and replaces it with the string_replacement where the string equals the string_pattern
 
 
 DDL --> Data definition languages. It is used to create, modify and destroy the stucture of database objects in a database.
@@ -67,7 +68,7 @@ SELECT (Column1, Column2)
 FROM table2
 WHERE "Condition"
 
-Code Example 6:            --Note, the last line can be any datatype for the third 
+Code Example 6:            --Note, the last line can be any datatype for the third keyword
 ALTER TABLE table1
 ADD column1 NVARCHAR(255)
 
